@@ -54,6 +54,21 @@
 
 장점1 : HTML 코드를 읽어 오는 동안 script 다운을 완료하고, 사용자가 화면을 볼 때 바로 해당 파일이 실행된다.
 
+<br>
+
+## 02. JavaScript 에서 HTML 접근하기
+
+'document'라는 object는 자바스크립트 관점에서의  HTML를 뜻한다.
+HTML에서 항목들을 갖고와서 JS에서 변경가능하다.
+
+> document내 다양하게 접근하는 함수들을 사용한다.
+document.getElementById : HTML에서 id를 통해 element를 찾아준다.<br>
+element를 찾고 나면, JS로 해당 HTML의 무엇이든 바꿀 수 있다. 
+해당 element의 innerText를 바꾼다던가 (elementIdName.innerText = "change this!";)
+id, className 등을 가져 올 수 있음. (cosole.log(ti tle.id);)
+
+
+<hr/>
 
 
 <hr/>
